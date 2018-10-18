@@ -1,10 +1,12 @@
 #!/home/bin/python3
 
+import sys
+sys.path.insert(0, "$HOME/.local/lib/python3.6/site-packages")
+
 import argparse
 from cyvcf2 import VCF
 import numpy as np
 import time
-import sys
 import collections
 
 print()
