@@ -315,4 +315,4 @@ python3 VCF-Simplify.py BuildVCF -fromType haplotype -inFile simple_haplotype.tx
 <br>
 
 ## NOTE
-Author original python script has been modified to run it locally (without root rights).
+Author's original python script has been modified to run it locally (without root rights).
