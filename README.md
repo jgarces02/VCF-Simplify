@@ -4,7 +4,7 @@ There are several tools available to mainpulate and alter VCF file.
 But, a simple and comprehensive tool that can produce a most simple
 output required by emperical biologist is still amiss.
 
-  - **Convert VCF to TABLE**\
+  - **Convert VCF to TABLE**\z
     This tool takes in sorted vcf file and reports a simplified table output
 for `INFO` and `FORMAT` field for each `SAMPLE` of interest. With default
 state (minimal code) all the `INFO`, `FORMAT` for all the `SAMPLE` are
@@ -314,11 +314,5 @@ python3 VCF-Simplify.py BuildVCF -fromType haplotype -inFile simple_haplotype.tx
 
 <br>
 
-## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Upcoming features:
-  - Ability to add `genotype bases` for fields other than ***"GT"*** .
-  - Ability to handle ***symbolic alleles***.
-  - Ability to :
-    - prepare custom diploid genome.
-    - prepare custom GTF, GFF files.
-  - Extract gene sequence using ref genome and VCF files for phylogenetic analyses.
-
+## NOTE
+Python script has been modified to run it locally (without root rights).
